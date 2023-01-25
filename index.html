@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./code-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>QR-code</title>
+</head>
+<body>
+    <img src="./logo.png" alt="logo" class="logo">
+    <div class="container">
+        <header class="header">
+            <h1>QR Code</h1>
+            <p>Paste a url or enter text to create QR code</p>
+        </header>
+        <form class="form-container">
+            <input class="form-input" type="text" placeholder="Enter text or url">
+            <button class="form-btn" type="button">Generate QR Code</button>
+        </form>
+        <div class="results">
+            <img class="results-img" src="" alt="qr-code">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
